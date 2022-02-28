@@ -1,43 +1,20 @@
-package ifelse;
-
-import java.util.Scanner;
+package tranary;
 
 public class MyProject {
 
 	public static void main(String[] args) {
-		int day;
-		Scanner sc = new Scanner(System.in);
-		System.out.println("enter day number");
-		day= sc.nextInt();
-		switch(day) {
-		case 1:
-			System.out.println("Monday");
-			break;
-		case 2:
-			System.out.println("Tuesday");
-			break;
-		case 3:
-			System.out.println("wednesday");
-			break;
-			
-		case 4:
-			System.out.println("Thursday");
-			break;	
-		case 5:
-			System.out.println("Friday");
-			break;
-		case 6:
-			System.out.println("Saturday");
-			break;	
-		case 7:
-			System.out.println("Sunday");
-			break;	
-		default:
-			System.out.println("outside switch invald ");
-			
-		}
+		int a=10, b= 7;
+		boolean c =(a<b);
+		System.out.println(c);
+		int C ;
+		C=a+b;
+		System.out.println(c);
+		int d,e;
+		d=4;
+		e=7;
+		int ter=(d>e)? d:e;
+		System.out.println("Large value"+d+"and"+e+"is"+ter);
 		
-		System.out.println("outside switch case");
 	}
 
 }
