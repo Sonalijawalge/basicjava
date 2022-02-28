@@ -1,23 +1,14 @@
-package myproject;
-
-import java.util.Scanner;
+package lesssonone;
 
 public class MyClass {
 
 	public static void main(String[] args) {
-		int age;
-		Scanner sc = new Scanner(System.in);
-		age =sc.nextInt();
-		System.out.println("enter the age");
-		if( age >=18 ) {
-			System.out.println("your eligible");
-			
-		}
-		if(age<18) {
-			System.out.println("yournot eligible");
-
-			
-		}
+		int a,b,c; //declaration
+		a =5;
+		b = 6;
+		c = a + b;
+		System.out.println("The sum of"+a+" and "+b+"is" +c);
+		
 
 	}
 
